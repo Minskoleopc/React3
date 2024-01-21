@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './components/MyComponent';
+import MyComponentClass from './components/MyComponentClass';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+    <MyComponent/>
+    <MyComponentClass/>
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,9 +20,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React in Minskole
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
