@@ -9,10 +9,18 @@ import Greet from './components/Greet';
 import JsxR from './components/JsxR';
 import PropRF from './components/PropRF';
 import PropC from './components/PropC';
+import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
+    <Message></Message>
+    <Counter></Counter>
+
+
+
+
       {/* <MyComponent/>
     <MyComponentClass/>
     <MyFr/>
@@ -21,13 +29,13 @@ function App() {
     <Greet name = "chinmay" lastName = "deshpande"></Greet>
     <Greet name = "shirish" lastName = "dani"></Greet>
     <Greet name = "ram" lastName = "joshi"></Greet> */}
-      <JsxR />
+      {/* <JsxR />
       <PropRF name="chinmay" lastName = "deshpande">
         <p>This is the children element</p>
       </PropRF>
       <PropRF name="sarika" lastName = "pansare"></PropRF>
       <PropRF name="ram" lastName = "dani"></PropRF>
-      <PropC firstName ="poorva" lastName = "vyas"></PropC>
+      <PropC firstName ="poorva" lastName = "vyas"></PropC> */}
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
