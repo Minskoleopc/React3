@@ -11,12 +11,19 @@ import PropRF from './components/PropRF';
 import PropC from './components/PropC';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import Counter2 from './components/Counter2';
+import Greet4 from './components/Greet4';
 
 function App() {
   return (
     <div className="App">
-    <Message></Message>
-    <Counter></Counter>
+      <Greet4 name = "chinmay" lastName = "deshpande"></Greet4>
+
+
+    {/* <Counter2></Counter2>  */}
+    {/* // <Message></Message>
+    // <Counter></Counter> */}
+    
 
 
 
