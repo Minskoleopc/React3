@@ -13,11 +13,13 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import Counter2 from './components/Counter2';
 import Greet4 from './components/Greet4';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <Greet4 name = "chinmay" lastName = "deshpande"></Greet4>
+      {/* <Greet4 name = "chinmay" lastName = "deshpande"></Greet4> */}
+      <EventBind></EventBind>
 
 
     {/* <Counter2></Counter2>  */}

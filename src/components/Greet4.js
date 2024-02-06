@@ -1,6 +1,5 @@
 import React from "react";
 function Greet4 (props){
-
     let {name , lastName} = props
     return(
         <div>
