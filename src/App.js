@@ -17,20 +17,18 @@ import EventBind from './components/EventBind';
 import EventBindR from './components/EventBindR';
 // import ParentC from './components/ParentC';
 import Parentpr from './components/Parentpr';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-      <Parentpr></Parentpr>
 
+     <UserGreeting></UserGreeting>
+      {/* <Parentpr></Parentpr> */}
       {/* <ParentC></ParentC> */}
-
       {/* <EventBindR></EventBindR> */}
-
       {/* <Greet4 name = "chinmay" lastName = "deshpande"></Greet4> */}
       {/* <EventBind></EventBind> */}
-
-
       {/* <Counter2></Counter2>  */}
       {/* // <Message></Message>
     // <Counter></Counter> */}
