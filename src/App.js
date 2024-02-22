@@ -19,13 +19,14 @@ import EventBindR from './components/EventBindR';
 import Parentpr from './components/Parentpr';
 import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Namelist';
+import Namelist2 from './components/Namelist2';
 
 function App() {
   return (
     <div className="App">
-      <Namelist></Namelist>
-
-     {/* <UserGreeting></UserGreeting> */}
+      <Namelist2></Namelist2>
+      {/* <Namelist></Namelist> */}
+      {/* <UserGreeting></UserGreeting> */}
       {/* <Parentpr></Parentpr> */}
       {/* <ParentC></ParentC> */}
       {/* <EventBindR></EventBindR> */}
