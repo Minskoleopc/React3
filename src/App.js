@@ -20,11 +20,19 @@ import Parentpr from './components/Parentpr';
 import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Namelist';
 import Namelist2 from './components/Namelist2';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/InlineStye';
+import  './components/appStyle.css'
+import  style  from './components/appStyle.module.css'
 
 function App() {
   return (
     <div className="App">
-      <Namelist2></Namelist2>
+      <h1  className='red'>Hello</h1>
+      <h1  className={style.green}>Hello</h1>
+      <Inline/>
+      {/* <Stylesheet name = "two"/> */}
+      {/* <Namelist2></Namelist2> */}
       {/* <Namelist></Namelist> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <Parentpr></Parentpr> */}
@@ -35,11 +43,6 @@ function App() {
       {/* <Counter2></Counter2>  */}
       {/* // <Message></Message>
     // <Counter></Counter> */}
-
-
-
-
-
       {/* <MyComponent/>
     <MyComponentClass/>
     <MyFr/>
