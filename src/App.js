@@ -24,13 +24,21 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/InlineStye';
 import  './components/appStyle.css'
 import  style  from './components/appStyle.module.css'
+import MyStyleR from './components/MyStyleR';
+import InlineR from './components/InlineR';
+import styleT from './components/MyStyleR.module.css'
+
 
 function App() {
   return (
     <div className="App">
-      <h1  className='red'>Hello</h1>
+      <h1 className ="five">Chinmay</h1>
+      <h1 className ={styleT.eight}>Chinmay</h1>
+      <InlineR/>
+      {/* <MyStyleR nm = "six"/> */}
+      {/* <h1  className='red'>Hello</h1>
       <h1  className={style.green}>Hello</h1>
-      <Inline/>
+      <Inline/> */}
       {/* <Stylesheet name = "two"/> */}
       {/* <Namelist2></Namelist2> */}
       {/* <Namelist></Namelist> */}
